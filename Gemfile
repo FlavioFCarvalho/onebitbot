@@ -7,6 +7,9 @@ gem 'rake'
 
 group :development do
  gem "tux"
+ gem "factory_bot"
+ gem "ffaker"
+ gem 'database_cleaner'
 end
 
 group :test do
